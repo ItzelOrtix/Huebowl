@@ -87,7 +87,7 @@ h2.titulo-secundario {
 
 
         .seccion-hero {
-            padding: 80px 200px 60px;
+            padding: 80px 200px -40px;
             display: flex;
            
             align-items: center;
@@ -141,7 +141,8 @@ h2.titulo-secundario {
 
         .imagen-hero {
             position: relative;
-            top: -120px;
+            top: -20px;
+            left: 50px;
             width: 750px;
             height: 750px;
             margin-right: -50px;
@@ -149,8 +150,8 @@ h2.titulo-secundario {
 
         .imagen-hero img {
             
-            width: 100%;
-            height: 100%;
+            width: 80%;
+            height: auto;
             object-fit: contain;
             position: relative;
             z-index: 2;
@@ -166,8 +167,8 @@ h2.titulo-secundario {
             text-align: center;
             padding: 0px 20px;
            color: rgb(70, 70, 70);
-            top: 120%;
-            left: 38%;
+            top: 138%;
+            left: 34%;
             z-index: 10; 
 
 
@@ -211,31 +212,29 @@ h2.titulo-secundario {
     }
 
 .imagen-acerca img {
-    width: 100%;
-    height: 100%;
+    width: 140%;
+    height: auto;
 
-    object-fit: cover; /* mantiene proporción */
-    transform: scale(1.2); /* <-- agranda la imagen */
-    transform-origin: center; /* punto desde donde se hace el zoom */
+    object-fit: cover; 
+    transform: scale(1.2); 
+    transform-origin: center; 
     position: relative;
     margin-top: 10px;
-    top: 50px;
-    left: 80px;
-    z-index: 2000;
+    top: -20px;
+right: 100px;    z-index: 2000;
 }
 
 .medio-circulo-derecha.about {
-    position: absolute;   /* permite moverlo libremente */
-    top: 10px;            /* distancia desde arriba del contenedor */
-    right: 100px;        /* negativo = sobresale hacia afuera de la sección */
+    position: absolute;  
+    top: -70px;            
+    right: 60px;        
     
-    width: 300px;         /* más ancho */
-    height: 600px;        /* más alto */
+    width: 250px;         
+    height: 520px;        
     background-color: #8384c3;
-    border-top-right-radius: 300px;
-    border-bottom-right-radius: 300px;
-    z-index: 1;           /* detrás de la imagen */
-        /* opcional: se ve más sutil */
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    z-index: 1;           
 }
 
 
@@ -406,8 +405,8 @@ h2.titulo-secundario {
             margin-bottom: 40px;
             font-weight: 300;
             position: relative;
-            left: 200px;
-            top: 100px; ;
+            left: 30px;
+            top: 50px; ;
         }
 
         .testimonio {
@@ -459,19 +458,20 @@ h2.titulo-secundario {
         }
 
         .flecha-testimonio {
-            font-size: 30px;
+            font-size: 50px;
             cursor: pointer;
             color: #686ff9;
             position: relative;
-            left: 300px;
+            left: 100px;
+            bottom: 100px;
         }
         .textotes{
             position: relative;
-            left: 200px;
-            bottom: 120px;
+            left: 30px;
+            top: -260px;
             color: #666;
             font-size: 15px;
-            width: 400px;
+            width: 300px;
         }
 
         .seccion-registro {
@@ -486,14 +486,13 @@ h2.titulo-secundario {
         }
 
         .contenido-registro {
-            max-width: 600px;
+            max-width: 500px;
             position: relative;
-            left: 200px;
-            
+            left: 80px;
         }
 
         .contenido-registro h2 {
-            font-size: 42px;
+            font-size: 32px;
             margin-bottom: 10px;
         }
 
@@ -515,7 +514,7 @@ h2.titulo-secundario {
             border-radius: 5px;
             font-size: 16px;
             position: relative;
-            left: 600px;
+            left: 400px;
             bottom: 100px;
             width: 300px;
         }
@@ -534,7 +533,7 @@ h2.titulo-secundario {
             align-items: center;
             gap: 0px;
             position: relative;
-            left: 500px;
+            left: 350px;
             bottom: 100px;
         }
 
@@ -602,7 +601,6 @@ h2.titulo-secundario {
         }
 
         .copyright {
-            text-align: center;
             padding-top: 30px;
             border-top: 1px solid #ddd;
             color: #999;
@@ -622,6 +620,12 @@ h2.titulo-secundario {
             width: 22%;
             height: auto;
             top: 20px;
-            right: -130px;
+            right: -30px;
+        }
+
+        .foot{
+            position: relative;
+            right: -700px;
+
         }
   
